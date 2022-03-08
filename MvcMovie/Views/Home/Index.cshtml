@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to MvcMovie Web Application</h1> <br />
+    <p>Click on  <a asp-area="" asp-controller="Movies" asp-action="Index" class="btn btn-success">MOVIE APPLICATION</a> to continue.</p>
+</div>
+<hr />
+<h2>Trending Movie Right Now</h2> <br />
+<video src="@Url.Content("~/videos/spooderman.mp4")" loop autoplay style="width:100%;"></video>
+
